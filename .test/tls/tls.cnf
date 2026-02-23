@@ -1,4 +1,0 @@
-
-[mariadb]
-ssl-cert=/etc/mysql/conf.d/server-cert.pem
-ssl-key=/etc/mysql/conf.d/server-key.pem

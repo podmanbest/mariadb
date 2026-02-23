@@ -1,8 +1,0 @@
-# Containerfile for adding the debuginfo of ubi micro rpm, based container
-# with some tools.
-ARG BASE
-FROM $BASE
-
-USER root
-RUN microdnf install -y MariaDB-server-debuginfo-${MARIADB_VERSION} MariaDB-backup-debuginfo-${MARIADB_VERSION}
-USER mysql
